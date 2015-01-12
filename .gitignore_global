@@ -1,3 +1,5 @@
+# See https://gist.github.com/octocat/9257657
+
 # Compiled source #
 ###################
 *.com
@@ -22,10 +24,18 @@
 
 # OS generated files #
 ######################
-.DS_Store*
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
 ehthumbs.db
-Icon?
 Thumbs.db
+
+# Language specific #
+#####################
+*.pyo
+*.pyc
 
 build/    # ignore all files in the build/ directory
 .svn/
