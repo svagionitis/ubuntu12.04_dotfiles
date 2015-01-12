@@ -14,12 +14,15 @@
 .goutputstream-*
 .gstreamer-0.10/
 .gtk-bookmarks
+.iristest.json*
+.kde/
 .local/
 .mission-control/
 .nv/
 .pki/
 .pulse*
 .mozilla/
+.Skype/
 .session_logs/
 .thumbnails/
 .thunderbird/
@@ -36,4 +39,7 @@ chromium_keys/
 comlogs/
 config
 workspace/
+
+# Vi temp files
+*.swp
 
