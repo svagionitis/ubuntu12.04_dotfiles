@@ -261,3 +261,6 @@ autocmd FileType c setlocal expandtab shiftwidth=4 softtabstop=4 cindent
 autocmd FileType javascript setlocal expandtab shiftwidth=4 softtabstop=4
 autocmd FileType html setlocal expandtab shiftwidth=4 softtabstop=4
 autocmd FileType idl  setlocal expandtab shiftwidth=4 softtabstop=4
+
+" http://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message
+autocmd Filetype gitcommit setlocal spell textwidth=72
