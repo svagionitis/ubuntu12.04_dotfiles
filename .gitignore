@@ -14,6 +14,7 @@
 .goutputstream-*
 .gstreamer-0.10/
 .gtk-bookmarks
+.gvfs/
 .iristest.json*
 .kde/
 .local/
