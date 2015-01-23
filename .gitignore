@@ -41,6 +41,7 @@ chromium_keys/
 comlogs/
 config
 workspace/
+novabase_rootfs/
 
 # Vi temp files
 *.swp
