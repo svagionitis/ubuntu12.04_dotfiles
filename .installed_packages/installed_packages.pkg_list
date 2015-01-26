@@ -147,6 +147,7 @@ dosfstools					install
 dpkg						install
 dpkg-dev					install
 duplicity					install
+dvbsnoop					install
 dvd+rw-tools					install
 e2fslibs					install
 e2fsprogs					install
@@ -1666,6 +1667,7 @@ module-init-tools				install
 mount						install
 mountall					install
 mousetweaks					install
+mpgtx						install
 mplayer						install
 mscompress					install
 mtools						install
@@ -2039,6 +2041,7 @@ transmission-common				install
 transmission-gtk				install
 tree						install
 tsconf						install
+tstools						install
 ttf-dejavu-core					install
 ttf-dejavu-extra				install
 ttf-droid					install
