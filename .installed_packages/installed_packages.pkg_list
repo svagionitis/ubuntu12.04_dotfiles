@@ -176,6 +176,8 @@ ffmpeg						install
 file						install
 file-roller					install
 findutils					install
+firebird2.5-common				install
+firebird2.5-common-doc				install
 firefox						install
 firefox-gnome-support				install
 firefox-locale-el				install
@@ -214,6 +216,7 @@ foomatic-db-engine				install
 foomatic-filters				install
 fop						install
 freepats					install
+freetds-common					install
 friendly-recovery				install
 ftp						install
 fuse						install
@@ -442,6 +445,7 @@ iwatch						install
 jadetex						install
 java-common					install
 java-wrappers					install
+javascript-common				install
 jockey-common					install
 jockey-gtk					install
 kate						install
@@ -729,6 +733,7 @@ libexttextcat-data				install
 libexttextcat0					install
 libfaad2					install
 libfarstream-0.1-0				install
+libfbclient2					install
 libffi6						install
 libffi6:i386					install
 libfftw3-3					install
@@ -970,6 +975,8 @@ libjpeg-turbo8:i386				install
 libjpeg8					install
 libjpeg8:i386					install
 libjs-jquery					install
+libjs-sphinxdoc					install
+libjs-underscore				install
 libjson-glib-1.0-0				install
 libjson0					install
 libjson0:i386					install
@@ -1076,6 +1083,7 @@ libmtp-common					install
 libmtp-runtime					install
 libmtp9						install
 libmusicbrainz3-6				install
+libmysqlclient18				install
 libmysqlclient18:i386				install
 libmythes-1.2-0					install
 libnautilus-extension1a				install
@@ -1196,6 +1204,7 @@ libpoppler19					install
 libpopt0					install
 libportaudio2					install
 libpostproc52					install
+libpq5						install
 libprotobuf7					install
 libprotoc7					install
 libproxy1					install
@@ -1385,6 +1394,7 @@ libsvga1					install
 libsvn1						install
 libswitch-perl					install
 libswscale2					install
+libsybdb5					install
 libsyncdaemon-1.0-1				install
 libsys-hostname-long-perl			install
 libsysfs2					install
@@ -1833,7 +1843,10 @@ python-gtksourceview2				install
 python-httplib2					install
 python-ibus					install
 python-imaging					install
+python-jinja2					install
+python-jinja2-doc				install
 python-keyring					install
+python-kinterbasdb				install
 python-launchpadlib				install
 python-lazr.restfulclient			install
 python-lazr.uri					install
@@ -1846,7 +1859,9 @@ python-mako					install
 python-markupsafe				install
 python-matplotlib				install
 python-matplotlib-data				install
+python-migrate					install
 python-minimal					install
+python-mysqldb					install
 python-notify					install
 python-numpy					install
 python-oauth					install
@@ -1862,10 +1877,12 @@ python-ply					install
 python-problem-report				install
 python-progressbar				install
 python-protobuf					install
+python-psycopg2					install
 python-pyatspi2					install
 python-pycurl					install
 python-pygments					install
 python-pyinotify				install
+python-pymssql					install
 python-pyorbit					install
 python-pyparsing				install
 python-pysqlite2				install
@@ -1885,14 +1902,19 @@ python-smbc					install
 python-software-properties			install
 python-speechd					install
 python-sqlalchemy				install
+python-sqlalchemy-doc				install
 python-sqlalchemy-ext				install
+python-sqlparse					install
 python-subversion				install
 python-support					install
+python-tempita					install
 python-tk					install
 python-twisted-bin				install
 python-twisted-core				install
+python-twisted-mail				install
 python-twisted-names				install
 python-twisted-web				install
+python-twisted-words				install
 python-tz					install
 python-ubuntu-sso-client			install
 python-ubuntuone-client				install
@@ -1940,6 +1962,7 @@ rtorrent					install
 samba-common					install
 samba-common-bin				install
 sane-utils					install
+screen						install
 screen-resolution-extra				install
 seahorse					install
 sed						install
@@ -2022,6 +2045,7 @@ thunderbird-locale-en				install
 thunderbird-locale-en-gb			install
 thunderbird-locale-en-us			install
 tig						install
+tightvncserver					install
 time						install
 tipa						install
 tk						install
@@ -2160,6 +2184,7 @@ wireshark					install
 wireshark-common				install
 wodim						install
 wpasupplicant					install
+wwwconfig-common				install
 x11-apps					install
 x11-common					install
 x11-session-utils				install
@@ -2227,6 +2252,7 @@ xserver-xorg-video-vesa-lts-raring		install
 xserver-xorg-video-vmware-lts-raring		install
 xsltproc					install
 xterm						install
+xtightvncviewer					install
 xtrans-dev					install
 xul-ext-ubufox					install
 xz-lzma						install
