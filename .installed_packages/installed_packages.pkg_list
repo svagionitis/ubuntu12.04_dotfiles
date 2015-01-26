@@ -288,6 +288,7 @@ git						install
 git-core					install
 git-man						install
 git-review					install
+git-svn						install
 gitk						install
 gksu						install
 glib-networking					install
@@ -1412,6 +1413,7 @@ libstdc++6-4.6-dev				install
 libstreamanalyzer0				install
 libstreams0					install
 libsvga1					install
+libsvn-perl					install
 libsvn1						install
 libswitch-perl					install
 libswscale2					install
@@ -1434,6 +1436,7 @@ libtdb1:i386					install
 libtelepathy-farstream2				install
 libtelepathy-glib0				install
 libtelepathy-logger2				install
+libterm-readkey-perl				install
 libtext-charwidth-perl				install
 libtext-iconv-perl				install
 libtext-wrapi18n-perl				install
@@ -2026,6 +2029,7 @@ sqlitebrowser					install
 ssh-askpass-gnome				install
 ssl-cert					install
 strace						install
+subcommander					install
 subversion					install
 sudo						install
 synaptic					install
