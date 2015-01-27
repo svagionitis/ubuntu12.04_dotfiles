@@ -425,6 +425,7 @@ indicator-printers				install
 indicator-session				install
 indicator-sound					install
 indicator-status-provider-mc5			install
+indicator-status-provider-pidgin		install
 info						install
 initramfs-tools					install
 initramfs-tools-bin				install
@@ -909,6 +910,7 @@ libgtksourceview-3.0-common			install
 libgtksourceview2.0-0				install
 libgtksourceview2.0-common			install
 libgtkspell-3-0					install
+libgtkspell0					install
 libgtop2-7					install
 libgtop2-common					install
 libgucharmap-2-90-7				install
@@ -1040,6 +1042,7 @@ libktexteditor4					install
 liblapack3gf					install
 liblaunchpad-integration-3.0-1			install
 liblaunchpad-integration-common			install
+liblaunchpad-integration1			install
 liblcms1					install
 liblcms1:i386					install
 liblcms2-2					install
@@ -1049,8 +1052,8 @@ liblightdm-gobject-1-0				install
 liblinux-inotify2-perl				install
 liblircclient0					install
 liblist-moreutils-perl				install
-libllvm3.2					install
-libllvm3.2:i386					install
+libllvm3.2					deinstall
+libllvm3.2:i386					deinstall
 libllvm3.4					install
 libllvm3.4:i386					install
 liblocale-gettext-perl				install
@@ -1625,7 +1628,7 @@ libxp6						install
 libxp6:i386					install
 libxpm4						install
 libxpm4:i386					install
-libxrandr-ltsr2					install
+libxrandr-ltsr2					deinstall
 libxrandr-ltst2					install
 libxrandr2					install
 libxrandr2:i386					install
@@ -1788,6 +1791,9 @@ pgf						install
 phonon						install
 phonon-backend-gstreamer			install
 picocom						install
+pidgin						install
+pidgin-data					install
+pidgin-libnotify				install
 pkg-config					install
 plasma-scriptengine-javascript			install
 plymouth					install
