@@ -72,6 +72,7 @@ brasero-common					install
 brltty						install
 bsdmainutils					install
 bsdutils					install
+buffer						install
 build-essential					install
 busybox-initramfs				install
 busybox-static					install
@@ -172,6 +173,8 @@ evince-common					install
 evolution-data-server				install
 evolution-data-server-common			install
 example-content					install
+expect						install
+expect-dev					install
 fakeroot					install
 ffmpeg						install
 file						install
@@ -436,6 +439,7 @@ insserv						install
 install-info					install
 intel-gpu-tools					install
 intltool-debian					install
+iotop						install
 iproute						install
 iptables					install
 iputils-arping					install
@@ -761,6 +765,7 @@ libfolks25					install
 libfont-afm-perl				install
 libfontconfig1					install
 libfontconfig1:i386				install
+libfontconfig1-dev				install
 libfontenc1					install
 libfop-java					install
 libframe6					install
@@ -768,6 +773,7 @@ libfreerdp-plugins-standard			install
 libfreerdp1					install
 libfreetype6					install
 libfreetype6:i386				install
+libfreetype6-dev				install
 libfribidi0					install
 libfs6						install
 libfuse2					install
@@ -1599,6 +1605,7 @@ libxext6:i386					install
 libxfixes3					install
 libxfixes3:i386					install
 libxfont1					install
+libxft-dev					install
 libxft2						install
 libxft2:i386					install
 libxi6						install
@@ -1632,11 +1639,13 @@ libxrandr-ltsr2					deinstall
 libxrandr-ltst2					install
 libxrandr2					install
 libxrandr2:i386					install
+libxrender-dev					install
 libxrender1					install
 libxrender1:i386				install
 libxres1					install
 libxslt1.1					install
 libxslt1.1:i386					install
+libxss-dev					install
 libxss1						install
 libxss1:i386					install
 libxt-dev					install
@@ -2050,6 +2059,7 @@ sysvinit-utils					install
 tar						install
 tcl						install
 tcl8.5						install
+tcl8.5-dev					install
 tcpd						install
 tcpdump						install
 teamviewer					install
@@ -2094,6 +2104,7 @@ time						install
 tipa						install
 tk						install
 tk8.5						install
+tk8.5-dev					install
 tor						install
 tor-geoipdb					install
 torsocks					install
@@ -2241,6 +2252,8 @@ x11-xserver-utils-lts-trusty			install
 x11proto-core-dev				install
 x11proto-input-dev				install
 x11proto-kb-dev					install
+x11proto-render-dev				install
+x11proto-scrnsaver-dev				install
 x11proto-xext-dev				install
 xauth						install
 xaw3dg:i386					install
