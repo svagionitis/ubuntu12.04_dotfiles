@@ -180,11 +180,6 @@ export IRIS_TEST_SETTINGS=~/.iristest.json
 #xauth add "$HOST/unix$DISPLAY" $AUTHTYPE $DEFAULTCOOKIE
 xhost local:root
 
-# http://www.openembedded.org/wiki/Devshell
-if [ -e "$HOME/.Xauthority" ] ; then
-    export XAUTHORITY="$HOME/.Xauthority"
-fi
-
 #It cannot be stressed enough how important it is to use strong user passwords and passphrase for your keys. 
 #Brute force attack works because you use dictionary based passwords. You can force users to avoid passwords 
 #against a dictionary attack and use john the ripper tool to find out existing weak passwords. Here is a 
