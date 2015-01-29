@@ -332,6 +332,8 @@ gnome-user-guide				install
 gnome-user-share				install
 gnomine						install
 gnupg						install
+gnutls-bin					install
+gnutls-doc					install
 google-chrome-stable				install
 google-musicmanager-beta			install
 gparted						install
@@ -442,6 +444,7 @@ intltool-debian					install
 iotop						install
 iproute						install
 iptables					install
+iptables-dev					install
 iputils-arping					install
 iputils-ping					install
 iputils-tracepath				install
@@ -793,6 +796,7 @@ libgcr-3-1					install
 libgcr-3-common					install
 libgcrypt11					install
 libgcrypt11:i386				install
+libgcrypt11-dev					install
 libgd2-xpm					install
 libgd2-xpm:i386					install
 libgdata-common					install
@@ -866,12 +870,16 @@ libgnomeui-0					install
 libgnomeui-common				install
 libgnomevfs2-0					install
 libgnomevfs2-common				install
+libgnutls-dev					install
+libgnutls-openssl27				install
 libgnutls26					install
 libgnutls26:i386				install
+libgnutlsxx27					install
 libgoa-1.0-0					install
 libgoa-1.0-common				install
 libgomp1					install
 libgomp1:i386					install
+libgpg-error-dev				install
 libgpg-error0					install
 libgpg-error0:i386				install
 libgpgme11					install
@@ -1078,6 +1086,7 @@ liblwp-mediatypes-perl				install
 liblwp-protocol-https-perl			install
 liblwres80					install
 liblzma5					install
+liblzo2-2					install
 libm17n-0					install
 libmad0						install
 libmad0:i386					install
@@ -1171,6 +1180,7 @@ libopenal-data					install
 libopenal1					install
 libopenal1:i386					install
 libopencc1					install
+libopenconnect1					install
 libopencore-amrnb0				install
 libopencore-amrwb0				install
 libopenexr6					install
@@ -1184,6 +1194,7 @@ libostyle1c2					install
 libotf0						install
 liboverlay-scrollbar-0.2-0			install
 liboverlay-scrollbar3-0.2-0			install
+libp11-kit-dev					install
 libp11-kit0					install
 libp11-kit0:i386				install
 libpackagekit-glib2-14				install
@@ -1219,6 +1230,7 @@ libphonon4					install
 libpipeline1					install
 libpixman-1-0					install
 libpixman-1-0:i386				install
+libpkcs11-helper1				install
 libplasma3					install
 libplist1					install
 libplymouth2					install
@@ -1306,8 +1318,10 @@ libraw1394-11					install
 libraw1394-11:i386				install
 libraw5						install
 librdf0						install
+libreadline-dev					install
 libreadline5					install
 libreadline6					install
+libreadline6-dev				install
 libregexp-assemble-perl				install
 libreoffice-base-core				install
 libreoffice-calc				install
@@ -1440,6 +1454,7 @@ libtar0						install
 libtasn1-3					install
 libtasn1-3:i386					install
 libtasn1-3-bin					install
+libtasn1-3-dev					install
 libtdb1						install
 libtdb1:i386					install
 libtelepathy-farstream2				install
@@ -1776,6 +1791,7 @@ odbcinst1debian2				install
 odbcinst1debian2:i386				install
 onboard						install
 oneconf						install
+openconnect					install
 openjade					install
 openjdk-6-jre					install
 openjdk-6-jre-headless				install
@@ -1784,6 +1800,7 @@ openoffice.org-hyphenation			install
 openprinting-ppds				install
 openssh-client					install
 openssl						install
+openvpn						install
 os-prober					install
 oss-compat					install
 overlay-scrollbar				install
@@ -2219,6 +2236,7 @@ vlc-data					install
 vlc-nox						install
 vlc-plugin-notify				install
 vlc-plugin-pulse				install
+vpnc						install
 wamerican					install
 wbritish					install
 wget						install
