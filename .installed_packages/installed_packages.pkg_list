@@ -114,6 +114,7 @@ cups-common					install
 cups-filters					install
 cups-ppdc					install
 curl						install
+d-feet						install
 dash						install
 dbus						install
 dbus-x11					install
@@ -1993,6 +1994,7 @@ python-uno					install
 python-virtkey					install
 python-virtualenv				install
 python-wadllib					install
+python-wnck					install
 python-xapian					install
 python-xdg					install
 python-xkit					install
