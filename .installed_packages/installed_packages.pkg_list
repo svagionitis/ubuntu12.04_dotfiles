@@ -395,6 +395,7 @@ hal						install
 hal-info					install
 hdparm						install
 hicolor-icon-theme				install
+hobbit-plugins					install
 hostname					install
 hplip						install
 hplip-data					install
@@ -1074,6 +1075,7 @@ libllvm3.4:i386					install
 liblocale-gettext-perl				install
 liblockfile-bin					install
 liblockfile1					install
+liblog-log4perl-perl				install
 liblouis-data					install
 liblouis2					install
 liblqr-1-0					install
@@ -1444,6 +1446,7 @@ libswscale2					install
 libsybdb5					install
 libsyncdaemon-1.0-1				install
 libsys-hostname-long-perl			install
+libsysadm-install-perl				install
 libsysfs2					install
 libt1-5						install
 libtag1-vanilla					install
@@ -1677,6 +1680,8 @@ libxxf86dga1					install
 libxxf86vm1					install
 libxxf86vm1:i386				install
 libyajl1					install
+libyaml-libyaml-perl				install
+libyaml-perl					install
 libyaml-tiny-perl				install
 libyelp0					install
 libzbar0					install
@@ -2008,6 +2013,7 @@ qdbus						install
 qt-at-spi					install
 radeontool					install
 rarian-compat					install
+rdate						install
 readline-common					install
 remmina						install
 remmina-common					install
@@ -2340,6 +2346,7 @@ xterm						install
 xtightvncviewer					install
 xtrans-dev					install
 xul-ext-ubufox					install
+xymon-client					install
 xz-lzma						install
 xz-utils					install
 yelp						install
