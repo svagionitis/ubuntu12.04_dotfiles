@@ -450,6 +450,9 @@ iptables-dev					install
 iputils-arping					install
 iputils-ping					install
 iputils-tracepath				install
+ipython						install
+ipython-doc					install
+ipython-notebook				install
 irqbalance					install
 isc-dhcp-client					install
 isc-dhcp-common					install
@@ -1010,6 +1013,8 @@ libjpeg-turbo8:i386				install
 libjpeg8					install
 libjpeg8:i386					install
 libjs-jquery					install
+libjs-jquery-ui					install
+libjs-mathjax					install
 libjs-sphinxdoc					install
 libjs-underscore				install
 libjson-glib-1.0-0				install
@@ -1229,6 +1234,7 @@ libpcsclite1					install
 libpeas-1.0-0					install
 libpeas-common					install
 libperl5.14					install
+libpgm-5.1-0					install
 libphonon4					install
 libpipeline1					install
 libpixman-1-0					install
@@ -1687,6 +1693,7 @@ libyelp0					install
 libzbar0					install
 libzeitgeist-1.0-1				install
 libzephyr4					install
+libzmq1						install
 libzvbi-common					install
 libzvbi0					install
 light-themes					install
@@ -1696,6 +1703,8 @@ linux-generic-lts-raring			install
 linux-generic-lts-trusty			install
 linux-headers-3.13.0-44				install
 linux-headers-3.13.0-44-generic			install
+linux-headers-3.13.0-45				install
+linux-headers-3.13.0-45-generic			install
 linux-headers-3.8.0-29				install
 linux-headers-3.8.0-29-generic			install
 linux-headers-3.8.0-44				install
@@ -1703,6 +1712,7 @@ linux-headers-3.8.0-44-generic			install
 linux-headers-generic-lts-raring		install
 linux-headers-generic-lts-trusty		install
 linux-image-3.13.0-44-generic			install
+linux-image-3.13.0-45-generic			install
 linux-image-3.8.0-29-generic			install
 linux-image-3.8.0-44-generic			install
 linux-image-generic-lts-raring			install
@@ -1971,6 +1981,7 @@ python-roman					install
 python-scapy					install
 python-serial					install
 python-setuptools				install
+python-simplegeneric				install
 python-simplejson				install
 python-sip					install
 python-smbc					install
@@ -1984,6 +1995,7 @@ python-subversion				install
 python-support					install
 python-tempita					install
 python-tk					install
+python-tornado					install
 python-twisted-bin				install
 python-twisted-core				install
 python-twisted-mail				install
@@ -2004,6 +2016,7 @@ python-xapian					install
 python-xdg					install
 python-xkit					install
 python-zeitgeist				install
+python-zmq					install
 python-zope.interface				install
 python2.7					install
 python2.7-dev					install
