@@ -1,7 +1,5 @@
 The directory '/home/stavros/.cache/pip/log' or its parent directory is not owned by the current user and the debug log has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want the -H flag.
 The directory '/home/stavros/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want the -H flag.
-You are using pip version 6.0.7, however version 6.0.8 is available.
-You should consider upgrading via the 'pip install --upgrade pip' command.
 adium-theme-ubuntu (0.3.2)
 apt-xapian-index (0.44)
 aptoncd (0.1.98-bzr117-1.2)
@@ -52,6 +50,7 @@ memory-profiler (0.32)
 MySQL-python (1.2.3)
 nose (1.3.4)
 nose-exclude (0.2.0)
+ntplib (0.3.2)
 numpy (1.6.1)
 nvidia-common (0.0.0)
 oauth (1.0.1)
@@ -63,7 +62,7 @@ PAM (0.4.2)
 paramiko (1.15.2)
 pexpect (2.3)
 PIL (1.1.7)
-pip (6.0.7)
+pip (6.0.8)
 piston-mini-client (0.7.2)
 ply (3.4)
 progressbar (2.2)
