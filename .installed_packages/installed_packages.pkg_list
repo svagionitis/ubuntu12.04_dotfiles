@@ -1197,6 +1197,8 @@ libopenvg1-mesa-lts-trusty			install
 liborbit2					install
 liborc-0.4-0					install
 liborc-0.4-0:i386				install
+libosmesa6					install
+libosmesa6:i386					install
 libosp5						install
 libostyle1c2					install
 libotf0						install
@@ -1705,6 +1707,8 @@ linux-headers-3.13.0-44				install
 linux-headers-3.13.0-44-generic			install
 linux-headers-3.13.0-45				install
 linux-headers-3.13.0-45-generic			install
+linux-headers-3.13.0-46				install
+linux-headers-3.13.0-46-generic			install
 linux-headers-3.8.0-29				install
 linux-headers-3.8.0-29-generic			install
 linux-headers-3.8.0-44				install
@@ -1713,6 +1717,7 @@ linux-headers-generic-lts-raring		install
 linux-headers-generic-lts-trusty		install
 linux-image-3.13.0-44-generic			install
 linux-image-3.13.0-45-generic			install
+linux-image-3.13.0-46-generic			install
 linux-image-3.8.0-29-generic			install
 linux-image-3.8.0-44-generic			install
 linux-image-generic-lts-raring			install
@@ -1821,6 +1826,7 @@ os-prober					install
 oss-compat					install
 overlay-scrollbar				install
 oxygen-icon-theme				install
+p7zip						install
 parted						install
 passwd						install
 patch						install
@@ -2067,6 +2073,7 @@ shotwell					install
 simple-scan					install
 skype:i386					install
 smbclient					install
+smem						install
 sni-qt						install
 socat						install
 software-center					install
@@ -2268,6 +2275,9 @@ winbind						install
 wine						install
 wine-gecko1.4					install
 wine-gecko1.4:i386				install
+wine-gecko2.21					install
+wine-gecko2.21:i386				install
+wine-mono0.0.8					install
 wine1.4						install
 wine1.4-amd64					install
 wine1.4-common					install
