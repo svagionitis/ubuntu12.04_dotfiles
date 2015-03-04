@@ -46,6 +46,8 @@ comlogs/
 config
 workspace/
 novabase_rootfs/
+Videos/
+pr/
 
 # Vi temp files
 *.swp
