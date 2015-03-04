@@ -81,6 +81,7 @@ bzr						install
 ca-certificates					install
 ca-certificates-java				install
 cabextract					install
+ccache						install
 checkbox					install
 checkbox-qt					install
 checkinstall					install
