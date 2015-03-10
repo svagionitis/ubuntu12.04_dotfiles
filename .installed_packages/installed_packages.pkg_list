@@ -923,6 +923,7 @@ libgoa-1.0-0					install
 libgoa-1.0-common				install
 libgomp1					install
 libgomp1:i386					install
+libgoogle-perftools0				install
 libgpg-error-dev				install
 libgpg-error0					install
 libgpg-error0:i386				install
@@ -1521,6 +1522,7 @@ libtasn1-3					install
 libtasn1-3:i386					install
 libtasn1-3-bin					install
 libtasn1-3-dev					install
+libtcmalloc-minimal0				install
 libtdb1						install
 libtdb1:i386					install
 libtelepathy-farstream2				install
@@ -1564,6 +1566,7 @@ libunity-2d-private0				install
 libunity-core-5.0-5				install
 libunity-misc4					install
 libunity9					install
+libunwind7					install
 libupnp3					install
 libupower-glib1					install
 liburi-perl					install
