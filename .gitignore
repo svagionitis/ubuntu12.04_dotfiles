@@ -1,9 +1,11 @@
+.audacity-data/
 .ICEauthority
 .Xauthority
 .bash_history
 .bazaar/
 .bzr.log
 .cache/
+.ccache/
 .compiz-1/
 .config/
 .dbus/
