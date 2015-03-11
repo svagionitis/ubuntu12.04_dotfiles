@@ -22,7 +22,12 @@
 .kde/
 .lesshst
 .local/
+.matplotlib/
 .mission-control/
+.m2/
+.node-gyp/
+.npm/
+.npmrc
 Music/
 .nv/
 .pki/
@@ -39,6 +44,7 @@ Music/
 .wakatime.db
 .wakatime.log
 .xsession-errors*
+CACHEDIR.TAG
 Documents/
 Downloads/
 Pictures/
