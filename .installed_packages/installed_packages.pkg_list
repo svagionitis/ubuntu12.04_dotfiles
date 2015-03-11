@@ -96,12 +96,19 @@ chromium-browser				install
 chromium-browser-l10n				install
 chromium-codecs-ffmpeg-extra			install
 chrpath						install
+cl-alexandria					install
+cl-asdf						install
+cl-babel					install
+cl-cffi						install
+cl-plplot					install
+cl-trivial-features				install
 cmake						install
 cmake-data					install
 cmap-adobe-japan2				install
 colord						install
 command-not-found				install
 command-not-found-data				install
+common-lisp-controller				install
 compiz						install
 compiz-core					install
 compiz-gnome					install
@@ -268,6 +275,8 @@ geoclue-ubuntu-geoip				install
 geoip-database					install
 gettext						install
 gettext-base					install
+gfortran					install
+gfortran-4.6					install
 ghostscript					install
 ghostscript-cups				install
 ghostscript-x					install
@@ -606,6 +615,8 @@ libbatik-java					install
 libbind9-80					install
 libbinio1ldbl					install
 libbison-dev					install
+libblas-dev					install
+libblas-doc					install
 libblas3gf					install
 libblkid1					install
 libbluetooth3					install
@@ -687,6 +698,7 @@ libcroco3:i386					install
 libcrypt-passwdmd5-perl				install
 libcryptsetup4					install
 libcrystalhd3					install
+libcsiro0					install
 libcue1						install
 libcups2					install
 libcups2:i386					install
@@ -791,6 +803,7 @@ libexttextcat0					install
 libfaad2					install
 libfarstream-0.1-0				install
 libfbclient2					install
+libffi-dev					install
 libffi6						install
 libffi6:i386					install
 libfftw3-3					install
@@ -1107,6 +1120,8 @@ libkrb5support0					install
 libkrb5support0:i386				install
 libkrosscore4					install
 libktexteditor4					install
+liblapack-dev					install
+liblapack-doc					install
 liblapack3gf					install
 liblaunchpad-integration-3.0-1			install
 liblaunchpad-integration-common			install
@@ -1153,6 +1168,9 @@ libmail-sendmail-perl				install
 libmailtools-perl				install
 libmatroska5					install
 libmeanwhile1					install
+libmediainfo-dev				install
+libmediainfo-doc				install
+libmediainfo0					install
 libmetacity-private0				install
 libmhash2					install
 libmikmod2:i386					install
@@ -1297,6 +1315,13 @@ libpixman-1-0:i386				install
 libpkcs11-helper1				install
 libplasma3					install
 libplist1					install
+libplplot-c++10					install
+libplplot-d					install
+libplplot-dev					install
+libplplot-fortran9				install
+libplplot-lua					install
+libplplot-ocaml					install
+libplplot11					install
 libplymouth2					install
 libpng12-0					install
 libpng12-0:i386					install
@@ -1334,6 +1359,10 @@ libpython2.7					install
 libqapt-runtime					install
 libqapt1					install
 libqca2						install
+libqhull-dev					install
+libqhull5					install
+libqsastime-dev					install
+libqsastime0					install
 libqt4-dbus					install
 libqt4-dbus:i386				install
 libqt4-declarative				install
@@ -1546,6 +1575,7 @@ libtimezonemap1					install
 libtinfo-dev					install
 libtinfo5					install
 libtinfo5:i386					install
+libtinyxml-dev					install
 libtinyxml2.6.2					install
 libtirpc1					install
 libtool						install
@@ -1757,6 +1787,8 @@ libyaml-tiny-perl				install
 libyelp0					install
 libzbar0					install
 libzeitgeist-1.0-1				install
+libzen-dev					install
+libzen0						install
 libzephyr4					install
 libzmq1						install
 libzvbi-common					install
@@ -1874,6 +1906,7 @@ nvidia-common					install
 nvidia-settings					install
 obex-data-server				install
 obexd-client					install
+ocaml-base-nox					install
 odbcinst					install
 odbcinst1debian2				install
 odbcinst1debian2:i386				install
@@ -2104,6 +2137,7 @@ radeontool					install
 rarian-compat					install
 rdate						install
 readline-common					install
+realpath					install
 remmina						install
 remmina-common					install
 remmina-plugin-rdp				install
@@ -2129,6 +2163,7 @@ rtorrent					install
 samba-common					install
 samba-common-bin				install
 sane-utils					install
+sbcl						install
 screen						install
 screen-resolution-extra				install
 seahorse					install
