@@ -172,6 +172,7 @@ dpkg						install
 dpkg-dev					install
 dput						install
 duplicity					install
+dvblast						install
 dvbsnoop					install
 dvd+rw-tools					install
 e2fslibs					install
@@ -273,6 +274,7 @@ genromfs					install
 geoclue						install
 geoclue-ubuntu-geoip				install
 geoip-database					install
+getstream					install
 gettext						install
 gettext-base					install
 gfortran					install
