@@ -282,6 +282,8 @@ gfortran-4.6					install
 ghostscript					install
 ghostscript-cups				install
 ghostscript-x					install
+gimp						install
+gimp-data					install
 ginn						install
 gir1.2-appindicator3-0.1			install
 gir1.2-atk-1.0					install
@@ -611,6 +613,7 @@ libavdevice53					install
 libavfilter2					install
 libavformat53					install
 libavutil51					install
+libbabl-0.0-0					install
 libbamf0					install
 libbamf3-0					install
 libbatik-java					install
@@ -868,6 +871,7 @@ libgdk-pixbuf2.0-common				install
 libgdu-gtk0					install
 libgdu0						install
 libgee2						install
+libgegl-0.0-0					install
 libgeis1					install
 libgeoclue0					install
 libgeoip1					install
@@ -877,6 +881,7 @@ libgexiv2-1					install
 libgfortran3					install
 libgif4						install
 libgif4:i386					install
+libgimp2.0					install
 libgirepository-1.0-1				install
 libgksu2-0					install
 libgl1-mesa-dev					install
@@ -1064,6 +1069,7 @@ libjack-jackd2-0				install
 libjack-jackd2-0:i386				install
 libjasper1					install
 libjasper1:i386					install
+libjavascriptcoregtk-1.0-0			install
 libjavascriptcoregtk-3.0-0			install
 libjaxp1.3-java					install
 libjbig2dec0					install
@@ -1650,6 +1656,8 @@ libwayland-egl1-mesa-lts-trusty			install
 libwayland-ltst-client0				install
 libwayland-ltst-server0				install
 libwbclient0					install
+libwebkitgtk-1.0-0				install
+libwebkitgtk-1.0-common				install
 libwebkitgtk-3.0-0				install
 libwebkitgtk-3.0-common				install
 libwildmidi-config				install
@@ -2177,6 +2185,7 @@ sgml-data					install
 sgmlspl						install
 shared-desktop-ontologies			install
 shared-mime-info				install
+sharutils					install
 shotwell					install
 simple-scan					install
 skype:i386					install
@@ -2197,6 +2206,7 @@ sqlite						install
 sqlitebrowser					install
 ssh-askpass-gnome				install
 ssh-import-id					install
+sshpass						install
 ssl-cert					install
 strace						install
 subcommander					install
