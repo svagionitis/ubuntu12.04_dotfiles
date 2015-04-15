@@ -139,7 +139,8 @@ export M2=$M2_HOME/bin
 export PATH=$M2:$PATH
 
 #Install the 32bit of java in order to compile java programs
-export JAVA_HOME=/opt/jdk-6u31-linux-i586/jdk1.6.0_31
+#export JAVA_HOME=/opt/jdk-6u31-linux-i586/jdk1.6.0_31
+export JAVA_HOME=/opt/jdk1.7.0_75
 export PATH=$JAVA_HOME/bin:$PATH
 
 #Install Coverity Scan Self-build, see https://scan.coverity.com/download
@@ -197,6 +198,7 @@ function nonascii() {
 	LANG=C grep -Hn --color=always '[^ -~]\+';
 }
 
+# From https://github.com/alonho/nosecomplete/blob/master/README.md
 # copied from newer versions of bash
 __ltrim_colon_completions() {
     # If word-to-complete contains a colon,
