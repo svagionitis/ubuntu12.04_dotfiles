@@ -149,6 +149,7 @@ deja-dup					install
 desktop-file-utils				install
 devscripts					install
 dh-apparmor					install
+dhex						install
 dictionaries-common				install
 diffstat					install
 diffuse						install
@@ -172,8 +173,11 @@ dpkg						install
 dpkg-dev					install
 dput						install
 duplicity					install
+dvb-apps					install
+dvbcut						install
 dvblast						install
 dvbsnoop					install
+dvbstream					install
 dvd+rw-tools					install
 e2fslibs					install
 e2fsprogs					install
@@ -380,6 +384,7 @@ grub2-common					install
 gs-cjk-resource					install
 gsettings-desktop-schemas			install
 gsfonts						install
+gstreamer-tools					install
 gstreamer0.10-alsa				install
 gstreamer0.10-ffmpeg				install
 gstreamer0.10-fluendo-mp3			install
@@ -548,6 +553,7 @@ libalgorithm-diff-perl				install
 libalgorithm-diff-xs-perl			install
 libalgorithm-merge-perl				install
 libao-common					install
+libao4						install
 libao4:i386					install
 libapache-pom-java				install
 libappindicator1				install
@@ -570,6 +576,7 @@ libasound2-dev					install
 libasound2-plugins				install
 libasound2-plugins:i386				install
 libaspell15					install
+libass-dev					install
 libass4						install
 libasyncns0					install
 libasyncns0:i386				install
@@ -782,6 +789,7 @@ libegl1-mesa-lts-trusty				install
 libelf1						install
 libelf1:i386					install
 libemail-valid-perl				install
+libenca-dev					install
 libenca0					install
 libenchant1c2a					install
 libencode-locale-perl				install
@@ -805,6 +813,8 @@ libexpat1-dev					install
 libexporter-lite-perl				install
 libexttextcat-data				install
 libexttextcat0					install
+libfaac-dev					install
+libfaac0					install
 libfaad2					install
 libfarstream-0.1-0				install
 libfbclient2					install
@@ -839,6 +849,7 @@ libfreerdp1					install
 libfreetype6					install
 libfreetype6:i386				install
 libfreetype6-dev				install
+libfribidi-dev					install
 libfribidi0					install
 libfs6						install
 libfuse2					install
@@ -1191,6 +1202,7 @@ libmng1:i386					install
 libmodplug1					install
 libmount1					install
 libmowgli2					install
+libmp3lame-dev					install
 libmp3lame0					install
 libmpc2						install
 libmpcdec6					install
@@ -1258,6 +1270,7 @@ liboauth0					install
 libodbc1					install
 libodbc1:i386					install
 libofa0						install
+libogg-dev					install
 libogg0						install
 libogg0:i386					install
 liboil0.3					install
@@ -1455,6 +1468,7 @@ librsvg2-2:i386					install
 librsvg2-common					install
 librsvg2-common:i386				install
 librsync1					install
+librtmp-dev					install
 librtmp0					install
 librtmp0:i386					install
 libruby1.8					install
@@ -1572,6 +1586,7 @@ libtext-wrapi18n-perl				install
 libthai-data					install
 libthai0					install
 libthai0:i386					install
+libtheora-dev					install
 libtheora0					install
 libtheora0:i386					install
 libthreadweaver4				install
@@ -1637,6 +1652,7 @@ libvlccore5					install
 libvncserver0					install
 libvo-aacenc0					install
 libvo-amrwbenc0					install
+libvorbis-dev					install
 libvorbis0a					install
 libvorbis0a:i386				install
 libvorbisenc2					install
@@ -1691,6 +1707,7 @@ libx11-doc					install
 libx11-xcb1					install
 libx11-xcb1:i386				install
 libx264-120					install
+libx264-dev					install
 libx86-1					install
 libxalan2-java					install
 libxapian22					install
@@ -2370,6 +2387,7 @@ uuid-runtime					install
 valgrind					install
 valkyrie					install
 vbetool						install
+vbindiff					install
 vim-common					install
 vim-gnome					install
 vim-gui-common					install
@@ -2493,6 +2511,7 @@ xul-ext-ubufox					install
 xymon-client					install
 xz-lzma						install
 xz-utils					install
+yasm						install
 yelp						install
 yelp-xsl					install
 youtube-dl					install
