@@ -9,7 +9,10 @@
 .compiz-1/
 .config/
 .dbus/
+.dhexrc
 .fontconfig/
+.gegl-0.0/
+.gimp-2.6/
 .gconf/
 .gnome/
 .gnome2/
@@ -32,6 +35,7 @@ Music/
 .nv/
 .pki/
 .pulse*
+.pip/
 .purple/
 .rnd
 .mozilla/
