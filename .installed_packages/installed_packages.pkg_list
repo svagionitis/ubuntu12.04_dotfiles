@@ -200,6 +200,7 @@ esound-common					install
 espeak						install
 espeak-data					install
 etckeeper					install
+ethtool						install
 evince						install
 evince-common					install
 evolution-data-server				install
