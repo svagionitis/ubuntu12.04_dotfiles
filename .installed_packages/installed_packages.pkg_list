@@ -1949,6 +1949,8 @@ man-db						install
 manpages					install
 manpages-dev					install
 mawk						install
+mc						install
+mc-data						install
 media-player-info				install
 meld						install
 memtest86+					install
