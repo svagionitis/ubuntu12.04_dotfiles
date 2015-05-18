@@ -1908,6 +1908,8 @@ linux-headers-3.13.0-49				install
 linux-headers-3.13.0-49-generic			install
 linux-headers-3.13.0-51				install
 linux-headers-3.13.0-51-generic			install
+linux-headers-3.13.0-52				install
+linux-headers-3.13.0-52-generic			install
 linux-headers-3.8.0-29				install
 linux-headers-3.8.0-29-generic			install
 linux-headers-3.8.0-44				install
@@ -1919,6 +1921,7 @@ linux-image-3.13.0-45-generic			install
 linux-image-3.13.0-46-generic			install
 linux-image-3.13.0-49-generic			install
 linux-image-3.13.0-51-generic			install
+linux-image-3.13.0-52-generic			install
 linux-image-3.8.0-29-generic			install
 linux-image-3.8.0-44-generic			install
 linux-image-generic-lts-raring			install
