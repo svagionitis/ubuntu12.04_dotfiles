@@ -338,6 +338,7 @@ glib-networking					install
 glib-networking:i386				install
 glib-networking-common				install
 glib-networking-services			install
+glogg						install
 gnome-accessibility-themes			install
 gnome-bluetooth					install
 gnome-common					install
@@ -674,6 +675,7 @@ libbonobo2-0					install
 libbonobo2-common				install
 libbonoboui2-0					install
 libbonoboui2-common				install
+libboost-program-options1.46.1			install
 libboost-serialization1.46.1			install
 libbrasero-media3-1				install
 libbrlapi0.5					install
@@ -1910,6 +1912,8 @@ linux-headers-3.13.0-51				install
 linux-headers-3.13.0-51-generic			install
 linux-headers-3.13.0-52				install
 linux-headers-3.13.0-52-generic			install
+linux-headers-3.13.0-53				install
+linux-headers-3.13.0-53-generic			install
 linux-headers-3.8.0-29				install
 linux-headers-3.8.0-29-generic			install
 linux-headers-3.8.0-44				install
@@ -1922,6 +1926,7 @@ linux-image-3.13.0-46-generic			install
 linux-image-3.13.0-49-generic			install
 linux-image-3.13.0-51-generic			install
 linux-image-3.13.0-52-generic			install
+linux-image-3.13.0-53-generic			install
 linux-image-3.8.0-29-generic			install
 linux-image-3.8.0-44-generic			install
 linux-image-generic-lts-raring			install
