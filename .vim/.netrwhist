@@ -1,8 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/home/stavros/workspace/STBCore/scripts/make'
 let g:netrw_dirhist_2='/home/stavros/workspace/Focusware_Digiplayer/STBCore/packages/DigiBrowserBuildSystem.git/packages/irisplayer.git/thrift'
 let g:netrw_dirhist_3='/home/stavros/workspace/Focusware_Digiplayer/STBCore/packages/digiresolver/MIPSEL'
 let g:netrw_dirhist_4='/home/stavros/workspace/Focusware_Digiplayer/STBCore/packages/DigiBrowserBuildSystem.git/packages/tuner/project/digisoft/server'
 let g:netrw_dirhist_5='/home/stavros/workspace/DDTWO-1568/poky/meta-irisupgrader/recipes-core/startup/files'
 let g:netrw_dirhist_6='/home/stavros/workspace/DDONE-546/gstreamer_mainline/build'
+let g:netrw_dirhist_7='/media/part1/NAS_streams/DemoJan2015'
+let g:netrw_dirhist_8='/home/stavros/workspace/DDSTB-432/poky/meta-novabase/recipes-connectivity/wpa-supplicant/wpa-supplicant'
