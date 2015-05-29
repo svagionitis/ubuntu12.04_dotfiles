@@ -45,6 +45,7 @@ audacious-plugins-data				install
 audacity					install
 audacity-data					install
 autoconf					install
+autoconf-archive				install
 autofs						install
 autofs5						install
 automake					install
@@ -89,6 +90,7 @@ ca-certificates					install
 ca-certificates-java				install
 cabextract					install
 ccache						install
+cdbs						install
 checkbox					install
 checkbox-qt					install
 checkinstall					install
@@ -153,6 +155,7 @@ devhelp						install
 devhelp-common					install
 devscripts					install
 dh-apparmor					install
+dh-translations					install
 dhex						install
 dictionaries-common				install
 diffstat					install
@@ -324,6 +327,7 @@ gir1.2-gtk-3.0					install
 gir1.2-gtksource-3.0				install
 gir1.2-gudev-1.0				install
 gir1.2-indicate-0.7				install
+gir1.2-javascriptcoregtk-1.0			install
 gir1.2-javascriptcoregtk-3.0			install
 gir1.2-launchpad-integration-3.0		install
 gir1.2-notify-0.7				install
@@ -335,6 +339,7 @@ gir1.2-totem-1.0				install
 gir1.2-totem-plparser-1.0			install
 gir1.2-unity-5.0				install
 gir1.2-vte-2.90					install
+gir1.2-webkit-1.0				install
 gir1.2-webkit-3.0				install
 gir1.2-wnck-3.0					install
 git						install
@@ -344,6 +349,8 @@ git-review					install
 git-svn						install
 gitk						install
 gksu						install
+glade						install
+glade-gtk2					install
 glib-networking					install
 glib-networking:i386				install
 glib-networking-common				install
@@ -965,6 +972,10 @@ libgl1-mesa-glx-lts-raring:i386			deinstall
 libgl1-mesa-glx-lts-trusty			install
 libgl1-mesa-glx-lts-trusty:i386			install
 libglade2-0					install
+libglade2-dev					install
+libgladeui-1-11					install
+libgladeui-2-0					install
+libgladeui-common				install
 libglamor-ltst0					install
 libglapi-mesa-lts-raring			deinstall
 libglapi-mesa-lts-raring:i386			deinstall
@@ -1055,6 +1066,7 @@ libgstreamer1.0-dev				install
 libgtk-3-0					install
 libgtk-3-bin					install
 libgtk-3-common					install
+libgtk-3-dev					install
 libgtk-3-doc					install
 libgtk2-perl					install
 libgtk2.0-0					install
@@ -2068,6 +2080,7 @@ oss-compat					install
 overlay-scrollbar				install
 oxygen-icon-theme				install
 p7zip						install
+pandora-build					install
 parted						install
 passwd						install
 patch						install
@@ -2156,6 +2169,7 @@ python-decorator				install
 python-defer					install
 python-dev					install
 python-dirspec					install
+python-distutils-extra				install
 python-docutils					install
 python-egenix-mxdatetime			install
 python-egenix-mxtools				install
@@ -2170,8 +2184,11 @@ python-gnomekeyring				install
 python-gnupginterface				install
 python-gobject					install
 python-gobject-2				install
+python-gobject-2-dev				install
 python-gst0.10					install
 python-gtk2					install
+python-gtk2-dev					install
+python-gtk2-doc					install
 python-gtksourceview2				install
 python-httplib2					install
 python-ibus					install
@@ -2180,6 +2197,7 @@ python-jinja2					install
 python-jinja2-doc				install
 python-keyring					install
 python-kinterbasdb				install
+python-launchpad-integration			install
 python-launchpadlib				install
 python-lazr.restfulclient			install
 python-lazr.uri					install
@@ -2196,6 +2214,7 @@ python-matplotlib-data				install
 python-migrate					install
 python-minimal					install
 python-mysqldb					install
+python-nose					install
 python-notify					install
 python-numpy					install
 python-oauth					install
@@ -2223,11 +2242,14 @@ python-pysqlite2				install
 python-pytools					install
 python-qt4					install
 python-qt4-dbus					install
+python-quickly-common				install
+python-quickly-core				install
 python-renderpm					install
 python-reportlab				install
 python-reportlab-accel				install
 python-roman					install
 python-scapy					install
+python-scour					install
 python-serial					install
 python-setuptools				install
 python-simplegeneric				install
@@ -2261,6 +2283,8 @@ python-virtkey					install
 python-virtualenv				install
 python-wadllib					install
 python-wnck					install
+python-wxgtk2.8					install
+python-wxversion				install
 python-xapian					install
 python-xdg					install
 python-xkit					install
@@ -2273,6 +2297,8 @@ python2.7-minimal				install
 qapt-batch					install
 qdbus						install
 qt-at-spi					install
+quickly						install
+quickly-ubuntu-template				install
 radeontool					install
 rarian-compat					install
 rdate						install
@@ -2537,6 +2563,7 @@ wine1.4-amd64					install
 wine1.4-common					install
 wine1.4-i386:i386				install
 winetricks					install
+winpdb						install
 wireless-tools					install
 wireshark					install
 wireshark-common				install
