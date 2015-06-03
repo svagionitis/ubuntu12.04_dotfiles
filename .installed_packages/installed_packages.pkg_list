@@ -32,6 +32,7 @@ apt-utils					install
 apt-xapian-index				install
 aptdaemon					install
 aptdaemon-data					install
+aptitude					install
 aptoncd						install
 apturl						install
 apturl-common					install
@@ -90,7 +91,6 @@ ca-certificates					install
 ca-certificates-java				install
 cabextract					install
 ccache						install
-cdbs						install
 checkbox					install
 checkbox-qt					install
 checkinstall					install
@@ -108,6 +108,7 @@ cmake						install
 cmake-data					install
 cmap-adobe-japan2				install
 colord						install
+comerr-dev					install
 command-not-found				install
 command-not-found-data				install
 common-lisp-controller				install
@@ -155,7 +156,6 @@ devhelp						install
 devhelp-common					install
 devscripts					install
 dh-apparmor					install
-dh-translations					install
 dhex						install
 dictionaries-common				install
 diffstat					install
@@ -230,6 +230,7 @@ folks-common					install
 fontconfig					install
 fontconfig-config				install
 fonts-droid					install
+fonts-freefont-ttf				install
 fonts-horai-umefont				install
 fonts-kacst					install
 fonts-kacst-one					install
@@ -277,6 +278,7 @@ gcc-4.6						install
 gcc-4.6-base					install
 gcc-4.6-base:i386				install
 gcc-4.6-multilib				install
+gcc-4.7-base					install
 gcc-4.8						install
 gcc-4.8-base					install
 gcc-4.9						install
@@ -358,7 +360,6 @@ glib-networking-services			install
 glogg						install
 gnome-accessibility-themes			install
 gnome-bluetooth					install
-gnome-common					install
 gnome-control-center				install
 gnome-control-center-data			install
 gnome-desktop3-data				install
@@ -447,7 +448,7 @@ gstreamer1.0-plugins-ugly-doc			install
 gstreamer1.0-pulseaudio				install
 gstreamer1.0-tools				install
 gstreamer1.0-x					install
-gtk-doc-tools					install
+gtk-doc-tools					deinstall
 gtk2-engines					install
 gtk2-engines:i386				install
 gtk2-engines-murrine				install
@@ -503,6 +504,7 @@ icedtea-6-jre-jamvm				install
 icedtea-netx					install
 icedtea-netx-common				install
 icoutils					install
+icu-devtools					install
 ifupdown					install
 im-switch					install
 imagemagick					install
@@ -528,7 +530,6 @@ inputattach					install
 insserv						install
 install-info					install
 intel-gpu-tools					install
-intltool					install
 intltool-debian					install
 iotop						install
 iproute						install
@@ -567,6 +568,7 @@ kerneloops-daemon				install
 keyboard-configuration				install
 klibc-utils					install
 krb5-locales					install
+krb5-multidev					install
 kubuntu-debug-installer				install
 lacheck						install
 lame						install
@@ -629,6 +631,8 @@ libasound2-dev					install
 libasound2-plugins				install
 libasound2-plugins:i386				install
 libaspell15					install
+libasprintf-dev					install
+libasprintf0c2					install
 libass-dev					install
 libass4						install
 libasyncns0					install
@@ -695,8 +699,13 @@ libbonobo2-0					install
 libbonobo2-common				install
 libbonoboui2-0					install
 libbonoboui2-common				install
+libboost-date-time1.54.0			install
+libboost-iostreams1.46.1			install
+libboost-iostreams1.54.0			install
 libboost-program-options1.46.1			install
 libboost-serialization1.46.1			install
+libboost-system1.54.0				install
+libboost1.54-dev				install
 libbrasero-media3-1				install
 libbrlapi0.5					install
 libbs2b0					install
@@ -757,8 +766,11 @@ libclass-accessor-perl				install
 libclass-isa-perl				install
 libclone-perl					install
 libcloog-isl4					install
+libclucene-contribs1				install
+libclucene-core1				install
 libclucene0ldbl					install
 libcmis-0.2-0					install
+libcolamd2.7.1					install
 libcolord1					install
 libcomerr2					install
 libcomerr2:i386					install
@@ -788,6 +800,8 @@ libcurl3					install
 libcurl3:i386					install
 libcurl3-gnutls					install
 libcurl3-nss					install
+libcurl4-openssl-dev				install
+libcwidget3					install
 libdaemon0					install
 libdatrie1					install
 libdatrie1:i386					install
@@ -875,8 +889,9 @@ libexpat1					install
 libexpat1:i386					install
 libexpat1-dev					install
 libexporter-lite-perl				install
+libexttextcat-2.0-0				install
 libexttextcat-data				install
-libexttextcat0					install
+libexttextcat0					deinstall
 libfaac-dev					install
 libfaac0					install
 libfaad2					install
@@ -953,6 +968,7 @@ libgegl-0.0-0					install
 libgeis1					install
 libgeoclue0					install
 libgeoip1					install
+libgettextpo-dev				install
 libgettextpo0					install
 libgettextpo0:i386				install
 libgexiv2-1					install
@@ -981,6 +997,7 @@ libglapi-mesa-lts-raring			deinstall
 libglapi-mesa-lts-raring:i386			deinstall
 libglapi-mesa-lts-trusty			install
 libglapi-mesa-lts-trusty:i386			install
+libglew1.10					install
 libglew1.6					install
 libglewmx1.6					install
 libglib-perl					install
@@ -1021,6 +1038,7 @@ libgnutls-dev					install
 libgnutls-openssl27				install
 libgnutls26					install
 libgnutls26:i386				install
+libgnutls28					install
 libgnutlsxx27					install
 libgoa-1.0-0					install
 libgoa-1.0-common				install
@@ -1042,16 +1060,19 @@ libgpod-common					install
 libgpod4					install
 libgrail5					install
 libgraph4					install
+libgraphite2-3					install
 libgrip0					install
 libgs9						install
 libgs9-common					install
 libgsm1						install
+libgsoap1					install
 libgssapi-krb5-2				install
 libgssapi-krb5-2:i386				install
 libgssapi3-heimdal				install
 libgssapi3-heimdal:i386				install
 libgssdp-1.0-3					install
 libgssglue1					install
+libgssrpc4					install
 libgstreamer-plugins-bad0.10-0			install
 libgstreamer-plugins-bad1.0-0			install
 libgstreamer-plugins-base0.10-0			install
@@ -1105,6 +1126,7 @@ libheimbase1-heimdal				install
 libheimbase1-heimdal:i386			install
 libheimntlm0-heimdal				install
 libheimntlm0-heimdal:i386			install
+libhogweed2					install
 libhpmud0					install
 libhtml-form-perl				install
 libhtml-format-perl				install
@@ -1126,12 +1148,14 @@ libical0					install
 libice-dev					install
 libice6						install
 libice6:i386					install
+libicu-dev					install
 libicu48					install
 libid3tag0					install
 libidl-common					install
 libidl0						install
 libidn11					install
 libidn11:i386					install
+libidn11-dev					install
 libido3-0.1-0					install
 libiec61883-0					install
 libiec61883-0:i386				install
@@ -1186,10 +1210,13 @@ libjson0:i386					install
 libjte1						install
 libk5crypto3					install
 libk5crypto3:i386				install
+libkadm5clnt-mit8				install
+libkadm5srv-mit8				install
 libkate1					install
 libkateinterfaces4				install
 libkatepartinterfaces4				install
 libkcmutils4					install
+libkdb5-6					install
 libkde3support4					install
 libkdeclarative5				install
 libkdecore5					install
@@ -1219,10 +1246,13 @@ libkrb5-26-heimdal				install
 libkrb5-26-heimdal:i386				install
 libkrb5-3					install
 libkrb5-3:i386					install
+libkrb5-dev					install
 libkrb5support0					install
 libkrb5support0:i386				install
 libkrosscore4					install
 libktexteditor4					install
+liblangtag-common				install
+liblangtag1					install
 liblapack-dev					install
 liblapack-doc					install
 liblapack3gf					install
@@ -1234,6 +1264,7 @@ liblcms1:i386					install
 liblcms2-2					install
 libldap-2.4-2					install
 libldap-2.4-2:i386				install
+libldap2-dev					install
 liblightdm-gobject-1-0				install
 liblinux-inotify2-perl				install
 liblircclient0					install
@@ -1256,6 +1287,7 @@ libltdl-dev					install
 libltdl7					install
 libltdl7:i386					install
 liblua5.1-0					install
+liblua5.1-0-dev					install
 liblua5.1-posix1				install
 liblvm2app2.2					install
 liblwp-mediatypes-perl				install
@@ -1373,6 +1405,7 @@ libopenexr6					install
 libopenjpeg2					install
 libopenobex1					install
 libopenvg1-mesa-lts-trusty			install
+libopts25					install
 libopus0					install
 liborbit2					install
 liborc-0.4-0					install
@@ -1532,6 +1565,7 @@ libreadline5					install
 libreadline6					install
 libreadline6-dev				install
 libregexp-assemble-perl				install
+libreoffice-avmedia-backend-gstreamer		install
 libreoffice-base-core				install
 libreoffice-calc				install
 libreoffice-common				install
@@ -1548,6 +1582,7 @@ libreoffice-l10n-el				install
 libreoffice-l10n-en-gb				install
 libreoffice-l10n-en-za				install
 libreoffice-math				install
+libreoffice-pdfimport				install
 libreoffice-style-human				install
 libreoffice-style-tango				install
 libreoffice-writer				install
@@ -1596,6 +1631,7 @@ libshout3:i386					install
 libsidplay1					install
 libsidplay2					install
 libsigc++-2.0-0c2a				install
+libsigc++-2.0-dev				install
 libsigsegv2					install
 libslang2					install
 libslang2:i386					install
@@ -1633,6 +1669,7 @@ libspeexdsp1:i386				install
 libsqlite0					install
 libsqlite3-0					install
 libsqlite3-0:i386				install
+libsqlite3-dev					install
 libss2						install
 libssh-4					install
 libssl-dev					install
@@ -1900,6 +1937,7 @@ libxrender-dev					install
 libxrender1					install
 libxrender1:i386				install
 libxres1					install
+libxslt1-dev					install
 libxslt1.1					install
 libxslt1.1:i386					install
 libxss-dev					install
@@ -1950,6 +1988,8 @@ linux-headers-3.13.0-52				install
 linux-headers-3.13.0-52-generic			install
 linux-headers-3.13.0-53				install
 linux-headers-3.13.0-53-generic			install
+linux-headers-3.13.0-54				install
+linux-headers-3.13.0-54-generic			install
 linux-headers-3.8.0-29				install
 linux-headers-3.8.0-29-generic			install
 linux-headers-3.8.0-44				install
@@ -1963,6 +2003,7 @@ linux-image-3.13.0-49-generic			install
 linux-image-3.13.0-51-generic			install
 linux-image-3.13.0-52-generic			install
 linux-image-3.13.0-53-generic			install
+linux-image-3.13.0-54-generic			install
 linux-image-3.8.0-29-generic			install
 linux-image-3.8.0-44-generic			install
 linux-image-generic-lts-raring			install
@@ -1974,6 +2015,7 @@ locales						install
 lockfile-progs					install
 login						install
 logrotate					install
+lp-solve					install
 lsb-base					install
 lsb-release					install
 lshw						install
@@ -2080,7 +2122,7 @@ oss-compat					install
 overlay-scrollbar				install
 oxygen-icon-theme				install
 p7zip						install
-pandora-build					install
+packeth						install
 parted						install
 passwd						install
 patch						install
@@ -2169,7 +2211,6 @@ python-decorator				install
 python-defer					install
 python-dev					install
 python-dirspec					install
-python-distutils-extra				install
 python-docutils					install
 python-egenix-mxdatetime			install
 python-egenix-mxtools				install
@@ -2298,7 +2339,6 @@ qapt-batch					install
 qdbus						install
 qt-at-spi					install
 quickly						install
-quickly-ubuntu-template				install
 radeontool					install
 rarian-compat					install
 rdate						install
@@ -2442,6 +2482,7 @@ transmission-common				install
 transmission-gtk				install
 tree						install
 tsconf						install
+tshark						install
 tstools						install
 ttf-dejavu-core					install
 ttf-dejavu-extra				install
@@ -2535,6 +2576,9 @@ vim-gui-common					install
 vim-runtime					install
 vim-tiny					install
 vino						install
+virtualbox					install
+virtualbox-dkms					install
+virtualbox-qt					install
 virtuoso-minimal				install
 virtuoso-opensource-6.1-bin			install
 virtuoso-opensource-6.1-common			install
