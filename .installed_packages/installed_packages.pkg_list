@@ -60,6 +60,7 @@ audacious-plugins:amd64				install
 audacious-plugins-data				install
 audacity					install
 audacity-data					install
+aufs-tools					install
 autoconf					install
 autoconf-archive				install
 autofs						install
@@ -94,9 +95,11 @@ branding-ubuntu					install
 brasero						install
 brasero-cdrkit					install
 brasero-common					install
+bridge-utils					install
 brltty						install
 bsdmainutils					install
 bsdutils					install
+btrfs-tools					install
 buffer						install
 build-essential					install
 busybox-initramfs				install
@@ -107,6 +110,8 @@ ca-certificates					install
 ca-certificates-java				deinstall
 cabextract					install
 ccache						install
+cgmanager					install
+cgroup-lite					install
 checkbox					deinstall
 checkbox-gui					install
 checkbox-ng					install
@@ -127,6 +132,7 @@ cl-plplot					install
 cl-trivial-features				install
 click						install
 click-apparmor					install
+cloud-image-utils				install
 cmake						install
 cmake-data					install
 colord						install
@@ -176,7 +182,9 @@ debconf						install
 debconf-i18n					install
 debhelper					install
 debianutils					install
+debootstrap					install
 debsums						install
+debugedit					install
 deja-dup					install
 deja-dup-backend-gvfs				install
 desktop-file-utils				install
@@ -192,6 +200,7 @@ dictionaries-common				install
 diffstat					install
 diffuse						install
 diffutils					install
+distro-info					install
 distro-info-data				install
 dkms						install
 dmidecode					install
@@ -205,6 +214,7 @@ docbook-dsssl					install
 docbook-utils					install
 docbook-xml					install
 docbook-xsl					install
+docker.io					install
 docutils-common					install
 docutils-doc					install
 doscan						install
@@ -244,6 +254,7 @@ esound-common					install
 espeak-data:amd64				install
 etckeeper					install
 ethtool						install
+euca2ools					install
 evince						install
 evince-common					install
 evolution-data-server				install
@@ -833,6 +844,7 @@ libboost-program-options1.46.1			deinstall
 libboost-program-options1.54.0:amd64		install
 libboost-serialization1.46.1			deinstall
 libboost-system1.54.0:amd64			install
+libboost-thread1.54.0:amd64			install
 libboost1.54-dev				install
 libbrasero-media3-1				install
 libbrlapi0.5					deinstall
@@ -1585,6 +1597,7 @@ liblwp-mediatypes-perl				install
 liblwp-protocol-https-perl			install
 liblwres80					deinstall
 liblwres90					install
+liblxc1						install
 liblzma-dev:amd64				install
 liblzma5:amd64					install
 liblzma5:i386					install
@@ -1959,6 +1972,7 @@ libqtwebkit4:i386				install
 libquadmath0:amd64				install
 libquicktime2:amd64				deinstall
 libquvi7:amd64					deinstall
+librados2					install
 libraptor2-0:amd64				install
 librarian0					install
 librasqal3:amd64				install
@@ -1966,6 +1980,7 @@ libraw1394-11:amd64				install
 libraw1394-11:i386				install
 libraw5						deinstall
 libraw9:amd64					install
+librbd1						install
 librdf0:amd64					install
 libreadline-dev:amd64				install
 libreadline5:amd64				install
@@ -2005,6 +2020,10 @@ librhythmbox-core5				deinstall
 librhythmbox-core8				install
 libroken18-heimdal:amd64			install
 libroken18-heimdal:i386				install
+librpm3						install
+librpmbuild3					install
+librpmio3					install
+librpmsign1					install
 librsvg2-2:amd64				install
 librsvg2-2:i386					install
 librsvg2-common:amd64				install
@@ -2039,6 +2058,7 @@ libsdl-ttf2.0-0:i386				install
 libsdl1.2-dev					install
 libsdl1.2debian:amd64				install
 libsdl1.2debian:i386				install
+libseccomp2:amd64				install
 libsecret-1-0:amd64				install
 libsecret-1-0:i386				install
 libsecret-common				install
@@ -2161,6 +2181,7 @@ libtelepathy-glib0:amd64			install
 libtelepathy-logger2:amd64			deinstall
 libtelepathy-logger3:amd64			install
 libterm-readkey-perl				install
+libterm-size-perl				install
 libterm-ui-perl					install
 libtevent0:amd64				install
 libtext-charwidth-perl				install
@@ -2571,6 +2592,8 @@ lua-posix:amd64					install
 lua5.1						install
 lua5.2						install
 luatex						install
+lxc						install
+lxc-templates					install
 lynx						install
 lynx-cur					install
 m17n-contrib					install
@@ -2787,6 +2810,7 @@ python-defer					install
 python-dev					install
 python-dirspec					install
 python-distlib					install
+python-distro-info				install
 python-dnspython				install
 python-docutils					install
 python-egenix-mxdatetime			install
@@ -2864,6 +2888,7 @@ python-quickly-core				install
 python-renderpm					install
 python-reportlab				install
 python-reportlab-accel				install
+python-requestbuilder				install
 python-requests					install
 python-roman					install
 python-samba					install
@@ -2942,6 +2967,7 @@ python3-gnupg					install
 python3-httplib2				install
 python3-libapparmor				install
 python3-louis					install
+python3-lxc					install
 python3-lxml					install
 python3-magic					install
 python3-mako					install
@@ -2969,6 +2995,7 @@ python3.4					install
 python3.4-minimal				install
 qapt-batch					install
 qdbus						install
+qemu-utils					install
 qpdf						install
 qt-at-spi:amd64					install
 qtchooser					install
@@ -3010,8 +3037,12 @@ rhythmbox-plugin-cdrecorder			install
 rhythmbox-plugin-magnatune			install
 rhythmbox-plugin-zeitgeist			install
 rhythmbox-plugins				install
+rinse						install
 rlwrap						install
 rpcbind						install
+rpm						install
+rpm-common					install
+rpm2cpio					install
 rsync						install
 rsyslog						install
 rtkit						install
@@ -3206,6 +3237,7 @@ udev						install
 udisks						install
 udisks2						install
 ufw						install
+uidmap						install
 ulatency					install
 ulatencyd					install
 unattended-upgrades				install
