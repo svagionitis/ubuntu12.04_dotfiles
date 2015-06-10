@@ -79,7 +79,9 @@ base-passwd					install
 bash						install
 bash-completion					install
 bc						install
+bind9						deinstall
 bind9-host					install
+bind9utils					install
 binfmt-support					install
 binutils					install
 bison						install
@@ -170,6 +172,8 @@ cups-ppdc					install
 cups-server-common				install
 curl						install
 d-feet						deinstall
+daemontools					install
+daemontools-run					install
 dash						install
 dbus						install
 dbus-x11					install
@@ -202,10 +206,12 @@ diffuse						install
 diffutils					install
 distro-info					install
 distro-info-data				install
+djbdns						install
 dkms						install
 dmidecode					install
 dmsetup						install
 dmz-cursor-theme				install
+dnscache-run					install
 dnsmasq-base					install
 dnsutils					install
 doc-base					install
@@ -264,6 +270,7 @@ example-content					install
 expect						install
 expect-dev					install
 fakeroot					install
+fancontrol					install
 fastjar						install
 ffmpeg						install
 file						install
@@ -503,6 +510,7 @@ gs-cjk-resource					deinstall
 gsettings-desktop-schemas			install
 gsettings-ubuntu-schemas			install
 gsfonts						install
+gsmartcontrol					install
 gstreamer-tools					install
 gstreamer0.10-alsa:amd64			install
 gstreamer0.10-ffmpeg				install
@@ -573,6 +581,7 @@ hal						install
 hal-info					install
 hardening-includes				install
 hdparm						install
+heirloom-mailx					install
 hicolor-icon-theme				install
 hobbit-plugins					deinstall
 hostname					install
@@ -2576,6 +2585,7 @@ linux-image-generic-lts-raring			install
 linux-image-generic-lts-trusty			install
 linux-libc-dev:amd64				install
 linux-sound-base				install
+lm-sensors					install
 lmodern						install
 locales						install
 lockfile-progs					install
@@ -2612,6 +2622,7 @@ mcp-account-manager-uoa				install
 media-player-info				install
 meld						install
 memtest86+					install
+menu						install
 mesa-common-dev					install
 metacity					install
 metacity-common					install
@@ -2664,6 +2675,9 @@ network-manager-pptp				install
 network-manager-pptp-gnome			install
 nfs-common					install
 nfs-kernel-server				install
+nginx						install
+nginx-common					install
+nginx-core					install
 nmap						install
 nodejs						install
 nodejs-dev					deinstall
@@ -3027,7 +3041,7 @@ remmina						install
 remmina-common					install
 remmina-plugin-rdp				install
 remmina-plugin-vnc				install
-resolvconf					install
+resolvconf					deinstall
 rfkill						install
 rhino						install
 rhythmbox					install
@@ -3080,6 +3094,7 @@ signon-ui					install
 signond						install
 simple-scan					install
 skype						install
+smartmontools					install
 smbclient					install
 smem						install
 smistrip					install
@@ -3213,7 +3228,6 @@ ubuntu-download-manager				install
 ubuntu-drivers-common				install
 ubuntu-extras-keyring				install
 ubuntu-keyring					install
-ubuntu-minimal					install
 ubuntu-mono					install
 ubuntu-release-upgrader-core			install
 ubuntu-release-upgrader-gtk			install
@@ -3233,6 +3247,7 @@ ubuntu-wallpapers-trusty			install
 ubuntuone-client				deinstall
 ubuntuone-client-data				install
 ucf						install
+ucspi-tcp					install
 udev						install
 udisks						install
 udisks2						install
@@ -3409,6 +3424,7 @@ xml-core					install
 xorg						install
 xorg-docs-core					install
 xorg-sgml-doctools				install
+xsensors					install
 xserver-common					install
 xserver-common-lts-raring			deinstall
 xserver-common-lts-trusty			install
