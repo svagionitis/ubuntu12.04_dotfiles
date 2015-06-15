@@ -1714,6 +1714,7 @@ libnspr4:amd64					install
 libnspr4:i386					install
 libnspr4-0d:amd64				install
 libnss-mdns:amd64				install
+libnss-myhostname:amd64				install
 libnss-winbind:amd64				install
 libnss3:amd64					install
 libnss3:i386					install
