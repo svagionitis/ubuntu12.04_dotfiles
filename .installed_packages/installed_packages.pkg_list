@@ -2570,6 +2570,8 @@ linux-headers-3.13.0-54				install
 linux-headers-3.13.0-54-generic			install
 linux-headers-3.13.0-55				install
 linux-headers-3.13.0-55-generic			install
+linux-headers-3.13.0-57				install
+linux-headers-3.13.0-57-generic			install
 linux-headers-3.8.0-29				install
 linux-headers-3.8.0-29-generic			install
 linux-headers-3.8.0-44				install
@@ -2586,10 +2588,12 @@ linux-image-3.13.0-52-generic			install
 linux-image-3.13.0-53-generic			install
 linux-image-3.13.0-54-generic			install
 linux-image-3.13.0-55-generic			install
+linux-image-3.13.0-57-generic			install
 linux-image-3.8.0-29-generic			install
 linux-image-3.8.0-44-generic			install
 linux-image-extra-3.13.0-54-generic		install
 linux-image-extra-3.13.0-55-generic		install
+linux-image-extra-3.13.0-57-generic		install
 linux-image-generic				install
 linux-image-generic-lts-raring			install
 linux-image-generic-lts-trusty			install
@@ -2814,8 +2818,10 @@ python-babel-localedata				install
 python-bzrlib					install
 python-cairo					install
 python-central					deinstall
+python-cffi					install
 python-chardet					install
 python-chardet-whl				install
+python-cheetah					install
 python-colorama					install
 python-colorama-whl				install
 python-commandnotfound				install
@@ -2876,6 +2882,7 @@ python-lxml					install
 python-markupsafe				install
 python-matplotlib				install
 python-matplotlib-data				install
+python-mediainfodll				install
 python-migrate					install
 python-minimal					install
 python-mysqldb					install
@@ -2900,6 +2907,7 @@ python-ply					install
 python-progressbar				install
 python-psycopg2					install
 python-pyatspi					install
+python-pycparser				install
 python-pycurl					install
 python-pygments					install
 python-pymssql					install
