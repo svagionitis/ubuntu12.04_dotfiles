@@ -577,7 +577,7 @@ gvfs-libs:i386					install
 gwibber						deinstall
 gyp						install
 gzip						install
-hal						install
+hal						deinstall
 hal-info					install
 hardening-includes				install
 hdparm						install
@@ -674,6 +674,7 @@ kerneloops-daemon				install
 keyboard-configuration				install
 klibc-utils					install
 kmod						install
+krb5-config					install
 krb5-locales					install
 krb5-multidev					install
 kubuntu-debug-installer				install
@@ -1792,6 +1793,7 @@ libpackagekit-glib2-16:amd64			install
 libpam-cap:amd64				install
 libpam-ck-connector:amd64			install
 libpam-gnome-keyring:amd64			install
+libpam-krb5:amd64				install
 libpam-modules:amd64				install
 libpam-modules-bin				install
 libpam-runtime					install
@@ -2247,7 +2249,7 @@ libubuntu-download-manager-common0		install
 libubuntu-download-manager-priv0		install
 libubuntuoneui-3.0-1				deinstall
 libudev0:amd64					install
-libudev0:i386					install
+libudev0:i386					deinstall
 libudev1:amd64					install
 libudev1:i386					install
 libudisks2-0:amd64				install
@@ -2698,6 +2700,7 @@ nodejs-dev					deinstall
 notification-daemon				install
 notify-osd					install
 notify-osd-icons				install
+nss-passwords					install
 ntfs-3g						install
 ntpdate						install
 ntrack-module-libnl-0				install
@@ -2760,6 +2763,7 @@ picocom						install
 pidgin						install
 pidgin-data					install
 pidgin-libnotify				install
+pinentry-curses					install
 pkg-config					install
 plainbox-provider-checkbox			install
 plainbox-provider-resource-generic		install
